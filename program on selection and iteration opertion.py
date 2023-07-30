@@ -5,7 +5,7 @@ if a%2==0:
  rev=0
  while (a>0):
   digit=a%10
-  rev-rev*10+digit
+  rev=rev*10+digit
   a=a//10
  if (t==rev):
   print ("the no is palindrome")
